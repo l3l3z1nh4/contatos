@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="shortcut icon" href="./imagens/favicon-1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="section">
+        <h1>Adicionar contato</h1>
+            <form>
+                <img src="./imagens/add_user.png" alt="icone adicionar usuário">
+                <input type="text" required placeholder="nome" id="fnome">
+                <input type="number" required placeholder="número" id="fnumero">
+                <button type="submit"><img src="./imagens/+.png" alt="icone adicionar" ></button> 
+            </form>
+        
+        <div id="tabela">
+            <h1>Contatos</h1>
+            <table>
+                <tbody id="lista-contatos">
+                    <tr>
+                        <td id="msg-vazio">nenhum contato foi adicionado a lista</td>
+                        <!-- <td> 
+                            <img src="./imagens/x.png" alt="icone excluir item" id="buttom-del" onclick=" deletar()">
+                        </td>-->
+                    </tr>
+                    
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <p>por <a href="https://github.com/l3l3z1nh4">L3L3Z1nH4</a> para EBAC</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
